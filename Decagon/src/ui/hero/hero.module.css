@@ -1,0 +1,43 @@
+.hero {
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
+  padding-top: 9rem;
+}
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.hero .btn button {
+  background-color: #12b76a;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.hero .grayp p {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+.hero p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+.hero button {
+  margin-top: 1rem;
+  background-color: #34a853;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.hero .img {
+  margin-top: 1.5rem;
+}

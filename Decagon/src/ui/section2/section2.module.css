@@ -1,0 +1,100 @@
+.Section2 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.Section2 h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+}
+.Section2 .imgg {
+  display: flex;
+  justify-content: center;
+}
+span {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Section2 p {
+  font-size: 15px;
+  margin: 1rem 12rem;
+  font-weight: 700;
+}
+
+.Section2 .grayp p {
+  font-size: 15px;
+  color: #6f6366;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card1 {
+  background-color: #f3f4f8;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  height: 85vh;
+  padding: 2rem;
+}
+.cards .card1 h1 {
+  font-size: 17px;
+  background-color: #101727;
+  border-radius: 2rem;
+  color: white;
+  padding: 0.5rem;
+  width: 5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cards .card1 h2 {
+  color: #34a953;
+  margin-bottom: 2rem;
+}
+.cards .card1 p {
+  color: #6f6366;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-bottom: 2rem;
+}
+.cards .card1 img {
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.cards .card2 {
+  background-color: #f3f4f8;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  height: 85vh;
+  padding: 2rem;
+}
+.cards .card2 h1 {
+  font-size: 17px;
+  background-color: #34a953;
+  border-radius: 2rem;
+  color: white;
+  padding: 0.5rem;
+  width: 5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cards .card2 h2 {
+  color: #34a953;
+  margin-bottom: 2rem;
+}
+.cards .card2 p {
+  color: #6f6366;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-bottom: 2rem;
+}
+.cards .card2 img {
+  object-fit: cover;
+  border-radius: 2rem;
+}

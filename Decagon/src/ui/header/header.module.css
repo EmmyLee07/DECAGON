@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  height: 12vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  border-bottom: 1px solid darkgray;
+  position: fixed;
+  background-color: white;
+}
+.header .logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
+.header .logo img {
+  width: 150px;
+}
+.header .enroll {
+  margin-right: 3rem;
+}
+
+.header .enroll button {
+  background-color: #34a853;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}

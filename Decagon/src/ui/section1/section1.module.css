@@ -1,0 +1,28 @@
+.section1 {
+  margin-top: 2rem;
+  background-image: url(/bg.ab820a5a.png);
+  font-family: sans-serif;
+  display: flex;
+  margin-bottom: 5rem;
+}
+.section1 .section1_text {
+  margin-left: 3rem;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+.section1 .section1_text h1 {
+  margin-right: 13rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+span {
+  color: #34a853;
+}
+.section1 .section1_text p {
+  margin-right: 5rem;
+}
+.section1 .section1_img img {
+  margin-right: 3rem;
+  margin-top: 3rem;
+  width: 27rem;
+}
