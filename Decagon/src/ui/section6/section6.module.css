@@ -1,6 +1,7 @@
 .Section6 {
   margin-top: 10rem;
   margin-bottom: 5rem;
+  font-family: sans-serif;
 }
 .Section6 h1 {
   text-align: center;
@@ -36,4 +37,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 0 9rem;
+}
+@media (min-width: 392px) and (max-width: 1180px) {
+  .Section6 h1 {
+    font-size: 25px;
+    margin: 0 1rem 4rem 1rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    padding: 0 1rem;
+  }
 }

@@ -4,6 +4,7 @@
   justify-content: center;
   margin-top: 7rem;
   margin-bottom: 3rem;
+  font-family: sans-serif;
 }
 .section5 .teams {
   display: flex;
@@ -16,8 +17,31 @@
 }
 .section5 .teams .team img {
   width: 75%;
-  border-radius: 6rem;
+  border-radius: 100%;
 }
 .section5 .teams .team p {
   color: #58a370;
+}
+@media (min-width: 392px) and (max-width: 1180px) {
+  .section5 .header h1 {
+    font-size: 30px;
+  }
+  .section5 .teams .team img {
+    width: 55%;
+    border-radius: 100%;
+  }
+  .section5 .teams .team h3 {
+    font-size: 16px;
+  }
+  .section5 .teams .team p {
+    color: #58a370;
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+  .section5 .teams {
+    display: block;
+  }
+  .section5 .teams {
+    padding: 0 2rem;
+  }
 }

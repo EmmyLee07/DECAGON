@@ -1,4 +1,5 @@
 import styles from "./section9.module.css";
+import { FaCheck } from "react-icons/fa";
 
 const Section9 = () => {
   return (
@@ -18,6 +19,49 @@ const Section9 = () => {
             master's degree in tech while balancing professional and personal
             life.
           </p>
+          <div className={styles.itext}>
+            <h4>
+              <i>Available courses for Tech Masters include:</i>
+            </h4>
+            <p>
+              <span>
+                <FaCheck />
+              </span>
+              MS in Engineering Management
+            </p>
+            <p>
+              <span>
+                <FaCheck />
+              </span>
+              STEM MBA in Business Analytics
+            </p>
+            <p>
+              <span>
+                <FaCheck />
+              </span>
+              MS in Cybersecurity
+            </p>
+            <p>
+              <span>
+                <FaCheck />
+              </span>
+              MS in Information Systems
+            </p>
+            <nav>
+              With flexible programs to meet your needs and commitment to real
+              world applications, Indiana Tech prepares you to excel in tech and
+              advance your career.
+              <br />
+              <br />
+              Overall, Indiana Tech provides a supportive and enriching
+              educational environment where students can pursue their academic
+              and professional goals while enjoying the benefits of a close-knit
+              community and access to major metropolitan areas.
+              <br />
+              <br /> Some Nearby major cities include Chicago, Indianapolis,
+              Columbus and Detroit.
+            </nav>
+          </div>
         </div>
         <div className={styles.img}>
           <img src="/indiana_school_ity7u1.svg" alt="" />

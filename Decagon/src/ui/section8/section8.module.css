@@ -1,6 +1,7 @@
 .Section8 {
   font-family: sans-serif;
   justify-content: center;
+  font-family: sans-serif;
 }
 .Section8 h1 {
   font-size: 40px;
@@ -31,4 +32,28 @@
 }
 .Section8 .imgg .img2 img {
   width: 22rem;
+}
+@media (min-width: 392px) and (max-width: 1180px) {
+  .Section8 h1 {
+    font-size: 30px;
+    margin-bottom: 3rem;
+  }
+  .Section8 p {
+    margin: 0 1rem;
+  }
+  .Section8 .imgg img {
+    width: 100%;
+    padding: 1rem;
+  }
+  .Section8 .imgg {
+    display: block;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+  .Section8 .imgg .img1 img {
+    width: 100%;
+  }
+  .Section8 .imgg .img2 img {
+    width: 100%;
+  }
 }

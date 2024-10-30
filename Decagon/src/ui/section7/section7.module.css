@@ -2,6 +2,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  font-family: sans-serif;
 }
 .Section7 h1 {
   font-size: 40px;
@@ -10,7 +11,7 @@
 .Section7 .imgs {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  padding: 2rem 6rem;
+  padding: 4rem;
   gap: 4rem;
   background-color: white;
 }
@@ -21,4 +22,16 @@
 }
 .Section7 .imgs .sterling img {
   height: 30%;
+}
+@media (min-width: 392px) and (max-width: 1180px) {
+  .Section7 h1 {
+    font-size: 30px;
+  }
+  .Section7 .imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 4rem;
+    gap: 3rem;
+    background-color: white;
+  }
 }

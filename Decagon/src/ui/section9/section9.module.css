@@ -1,6 +1,6 @@
 .Section9 {
   margin-top: 3rem;
-  padding: 3rem;
+  padding: 7rem;
   font-family: sans-serif;
 }
 .Section9 h1 {
@@ -14,7 +14,70 @@
 .Section9 h3 {
   font-size: 30px;
   margin-bottom: 1rem;
+  margin-top: 7rem;
 }
 .Section9 p {
   margin-right: 5.5rem;
+}
+.Section9 .itext h4 {
+  font-size: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.Section9 .itext p {
+  border: 1px solid #d2d4d8;
+  width: 350px;
+  padding: 0.5rem 1rem;
+  background-color: #f9fafc;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.Section9 .itext p span {
+  color: #98a2b3;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.Section9 .itext nav {
+  margin-top: 1rem;
+  margin-right: 5rem;
+  font-size: 15px;
+}
+.Section9 .img {
+  margin-top: 4rem;
+}
+@media (min-width: 392px) and (max-width: 1180px) {
+  .Section9 {
+    padding: 1rem;
+  }
+  .Section9 h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+  .Section9 h3 {
+    font-size: 27px;
+    margin-bottom: 2rem;
+  }
+  .Section9 p {
+    line-height: 1.5rem;
+  }
+  .Section9 .comp {
+    display: block;
+  }
+  .Section9 p {
+    margin-right: 0.5rem;
+  }
+  .Section9 .itext p {
+    width: 300px;
+    padding: 0.5rem 1rem;
+  }
+  .Section9 .itext nav {
+    margin-right: 0;
+    line-height: 1.5rem;
+  }
+  .Section9 .img img {
+    width: 100%;
+  }
 }

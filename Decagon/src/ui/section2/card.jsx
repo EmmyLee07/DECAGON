@@ -9,8 +9,7 @@ const Cards = () => {
         <h1>Gateway1</h1>
         <h2>Intensive Tech Training</h2>
         <p>
-          Become a competent tech star through Decagon's elite
-          <br /> training program.
+          Become a competent tech star through Decagon's elite training program.
         </p>
         <img src={gateway1} alt="Mentor" />
       </div>

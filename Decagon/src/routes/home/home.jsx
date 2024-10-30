@@ -12,6 +12,8 @@ import Section6 from "../../ui/section6/section6.jsx";
 import Section7 from "../../ui/section7/section7.jsx";
 import Section8 from "../../ui/section8/section8.jsx";
 import Section9 from "../../ui/section9/section9.jsx";
+import Section10 from "../../ui/section10/section10.jsx";
+import Footer from "../../ui/footer/footer.jsx";
 
 const Home = () => {
   return (
@@ -28,6 +30,8 @@ const Home = () => {
       <Section7 />
       <Section8 />
       <Section9 />
+      <Section10 />
+      <Footer />
     </>
   );
 };

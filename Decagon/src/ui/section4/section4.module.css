@@ -2,10 +2,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: sans-serif;
 }
 .section4 .header {
   font-size: 20px;
   margin-bottom: 3rem;
+  margin-top: 5rem;
 }
 .card1 {
   background-color: #f6f6f8;
@@ -28,5 +30,20 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding: 0 3rem;
+  padding: 0 10rem;
+  font-family: sans-serif;
+}
+@media (min-width: 392px) and (max-width: 1180px) {
+  .section4 .header {
+    font-size: 17px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  .cards {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    padding: 0 1rem;
+  }
 }
