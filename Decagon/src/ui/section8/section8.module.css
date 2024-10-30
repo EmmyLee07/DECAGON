@@ -1,5 +1,6 @@
 .Section8 {
   font-family: sans-serif;
+  justify-content: center;
 }
 .Section8 h1 {
   font-size: 40px;
@@ -15,6 +16,9 @@
   display: flex;
   padding: 3rem;
   gap: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 .Section8 .imgs img {
   width: 25rem;
