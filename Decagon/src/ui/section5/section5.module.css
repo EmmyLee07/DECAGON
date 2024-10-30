@@ -1,0 +1,23 @@
+.section5 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+.section5 .teams {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  margin-top: 3rem;
+}
+.section5 .header h1 {
+  font-size: 40px;
+}
+.section5 .teams .team img {
+  width: 75%;
+  border-radius: 6rem;
+}
+.section5 .teams .team p {
+  color: #58a370;
+}

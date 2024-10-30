@@ -1,0 +1,24 @@
+.Section7 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Section7 h1 {
+  font-size: 40px;
+}
+
+.Section7 .imgs {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 2rem 6rem;
+  gap: 4rem;
+  background-color: white;
+}
+.Section7 .imgs img {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 100%;
+}
+.Section7 .imgs .sterling img {
+  height: 30%;
+}

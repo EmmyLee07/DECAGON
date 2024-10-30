@@ -1,0 +1,20 @@
+.Section9 {
+  margin-top: 3rem;
+  padding: 3rem;
+  font-family: sans-serif;
+}
+.Section9 h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+.Section9 .comp {
+  display: flex;
+}
+.Section9 h3 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+.Section9 p {
+  margin-right: 5.5rem;
+}

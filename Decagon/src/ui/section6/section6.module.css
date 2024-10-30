@@ -1,0 +1,39 @@
+.Section6 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.Section6 h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.Carrd {
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: sans-serif;
+  align-items: center;
+}
+.Carrd img {
+  border-radius: 5rem;
+  width: 5rem;
+  border: 3px solid transparent;
+  outline: 3px solid rgb(204, 204, 204);
+  outline-offset: 1px;
+}
+.Carrd p {
+  color: gray;
+}
+.Carrd nav {
+  margin: 0 1rem;
+  margin-top: 2rem;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 3rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 0 9rem;
+}
