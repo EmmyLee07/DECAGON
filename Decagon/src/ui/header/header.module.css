@@ -38,6 +38,7 @@
 @media (min-width: 392px) and (max-width: 768px) {
   .header {
     height: 8vh;
+    width: 100%;
   }
   .header .logo img {
     width: 100px;
