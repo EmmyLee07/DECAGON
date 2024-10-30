@@ -34,3 +34,16 @@
   font-weight: bold;
   font-family: sans-serif;
 }
+
+@media (min-width: 392px) and (max-width: 768px) {
+  .header .logo img {
+    width: 100px;
+  }
+  .header .logo {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+}

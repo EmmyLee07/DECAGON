@@ -41,3 +41,12 @@
 .hero .img {
   margin-top: 1.5rem;
 }
+@media (min-width: 392px) and (max-width: 1180px) {
+  .hero .img {
+    margin-top: 1.5rem;
+  }
+  .hero .img img {
+    width: 90%;
+    height: auto;
+  }
+}
