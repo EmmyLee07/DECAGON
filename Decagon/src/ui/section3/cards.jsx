@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./section3.module.css";
+import { FaCheck } from "react-icons/fa";
 
 const Cardss = ({ program }) => {
   return (
@@ -23,8 +24,15 @@ const Cardss = ({ program }) => {
               <span>Duration:</span> {program.duration} Weeks <br />
               <span>Mode of Delivery:</span> <br />
               <nav>
-                Fully Online Hybrid
-                <br /> (Online & 2 days per week in Facility)
+                <span>
+                  <FaCheck />
+                </span>
+                Fully Online
+                <br />
+                <span>
+                  <FaCheck />
+                </span>
+                Hybrid (Online & 2 days per week in Facility)
               </nav>
               <span>Time commitment:</span> At least {program.time} hours daily
             </p>

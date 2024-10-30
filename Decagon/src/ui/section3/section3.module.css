@@ -69,6 +69,11 @@
   line-height: 1.5rem;
   padding-left: 2rem;
 }
+.card .card_content .others p nav span {
+  color: #98a2b3;
+  margin-right: 10px;
+  font-size: 15px;
+}
 .card button {
   margin-top: 1rem;
   background-color: #34a853;
