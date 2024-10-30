@@ -17,7 +17,7 @@ import Footer from "../../ui/footer/footer.jsx";
 
 const Home = () => {
   return (
-    <>
+    <div className={styles.Home}>
       <Header />
       <Hero />
       <Section1 />
@@ -32,7 +32,7 @@ const Home = () => {
       <Section9 />
       <Section10 />
       <Footer />
-    </>
+    </div>
   );
 };
 
